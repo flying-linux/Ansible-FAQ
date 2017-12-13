@@ -1,0 +1,33 @@
+{
+    "title": "效率提升",
+    "description": "Ansible、DMK FAQ, Knowledge and Wiki",
+    "language" : "zh-hans",
+    "author" : "DMK",
+
+    "plugins": [
+         "theme-comscore",
+         "splitter",
+         "prism", 
+         "-highlight",
+         "toggle-chapters",
+         "include-codeblock",
+         "ace",
+         "multipart",
+         "tbfed-pagefooter",
+         "expandable-chapters-small",
+         "-search",
+         "-lunr",
+         "search-plus",
+         "anchors"
+    ],
+    "pluginsConfig": {
+          "theme-default": {
+               "showLevel": true
+          },
+          "tbfed-pagefooter": {
+               "copyright":"公共服务与组件产品部 & <a href='http://code.huawei.com/OWL/AutoDeployment'>Deploy Management Kit</a>",
+               "modify_label": "最后更新于：",
+               "modify_format": "YYYY-MM-DD HH:mm:ss"
+          }
+     }
+}
